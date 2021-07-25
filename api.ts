@@ -17,3 +17,4 @@ export async function authenticate(clientId: string, clientSecret: string) {
         );   
     }
 }
+
