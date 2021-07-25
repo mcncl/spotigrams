@@ -10,7 +10,7 @@ export async function authenticate(clientId: string, clientSecret: string) {
         const accessToken = data.body["access_token"];
         console.log("The access token is " + accessToken);
         spotifyApi.setAccessToken(accessToken);
-        return spotifyApi;
+        return spotifyApi
     } catch (err) {
         console.log(
             "Uh oh! Ran in to an issue when retrieving acces token. Error: ", err.message

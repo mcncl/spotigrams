@@ -1,0 +1,25 @@
+{
+  "name": "spotigrams",
+  "version": "1.0.0",
+  "description": "An absolutely useless tool for searching the Spotify API for artists whose name is an anagram of a search term.",
+  "main": "index.js",
+  "dependencies": {
+    "node-fetch": "^2.6.1",
+    "request": "^2.88.2",
+    "spotify-web-api-node": "^5.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcncl/spotigrams.git"
+  },
+  "author": "Ben McNicholl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mcncl/spotigrams/issues"
+  },
+  "homepage": "https://github.com/mcncl/spotigrams#readme"
+}
