@@ -4,11 +4,14 @@
   "description": "An absolutely useless tool for searching the Spotify API for artists whose name is an anagram of a search term.",
   "main": "index.js",
   "dependencies": {
+    "dotenv": "^10.0.0",
     "node-fetch": "^2.6.1",
     "request": "^2.88.2",
     "spotify-web-api-node": "^5.0.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@types/node": "^16.4.2"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
